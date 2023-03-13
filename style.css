@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Open+Sans&family=Oswald:wght@200;500&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Mynerve', cursive; */
+/* font-family: 'Open Sans', sans-serif;
+/* font-family: 'Oswald', sans-serif; */
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Neon', cursive;  */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #001660;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column ;
+    padding: 2vh 4vh;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3 {
+    font-weight: 800;
+    color: #555;
+    margin-bottom: 20px;
+}
+form input , form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 15px;
+}
+form button{
+     background: #ff5361;
+     padding: 15px;
+     color: #fff;
+     font-size: 18px;
+     border: 0;
+     outline: none;
+     cursor: pointer;
+     width: 150px;
+     margin: 20px auto 0;
+     border-radius: 30px;
+}
